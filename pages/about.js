@@ -6,7 +6,7 @@ import Footer from '../components/common/Footer';
 const About = () => (
   <Root>
     <Head>
-      <title>About | Reduce</title>
+      <title>About | Whole Tech Store</title>
     </Head>
     <div className="about-container">
 

@@ -12,7 +12,7 @@ import ProductsBanner from '../components/homepage/ProductsBanner';
 const Home = () => (
   <Root transparentHeader={true}>
     <Head>
-      <title>Home | Reduce</title>
+      <title>Home | Whole Tech Store</title>
     </Head>
 
     <HeroSection />

@@ -17,7 +17,7 @@ import CategoryList from '../../components/products/CategoryList';
 import reduceProductImages from '../../lib/reduceProductImages';
 
 const detailView = `<p>
-  Slightly textured fabric with tonal geometric design and a bit of shine
+  Ask any questions - wholetechstore@outlook.com
 </p>`;
 
 export default function Product() {
@@ -66,7 +66,7 @@ export default function Product() {
   return (
     <Root>
       <Head>
-        <title>{ product.name } | Reduce</title>
+        <title>{ product.name } | Whole Tech Store</title>
       </Head>
 
       <div className="py-5 my-5">

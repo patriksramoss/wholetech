@@ -1,0 +1,91 @@
+
+index.js:1:18642
+13:09:14.365 Commerce.js console debugger is on!  🎉 index.js:1:20036
+13:09:14.366 💬   Need some help? Join our Slack channel - http://slack.commercejs.com 
+
+index.js:1:20210
+13:09:14.530
+Warning: Expected server HTML to contain a matching <a> in <div>. react-dom.development.js:530
+13:09:14.539
+    Warning: Failed prop type: You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
+    in input (at checkout/index.js:576)
+    in label (at checkout/index.js:572)
+    in div (at checkout/index.js:571)
+    in div (at checkout/index.js:570)
+    in form (at checkout/index.js:566)
+    in div (at checkout/index.js:550)
+    in div (at checkout/index.js:549)
+    in div (at checkout/index.js:547)
+    in Root (at checkout/index.js:542)
+    in CheckoutPage (at checkout/index.js:852)
+    in ElementsConsumer (at checkout/index.js:850)
+    in Elements (at checkout/index.js:849)
+    in InjectedCheckoutPage (created by ConnectFunction)
+    in ConnectFunction (created by withRouter(Connect(InjectedCheckoutPage)))
+    in withRouter(Connect(InjectedCheckoutPage)) (at _app.js:41)
+    in Provider (at _app.js:40)
+    in MyApp
+    in ErrorBoundary (created by ReactDevOverlay)
+    in ReactDevOverlay (created by Container)
+    in Container (created by AppContainer)
+    in AppContainer
+    in Root checkPropTypes.js:20
+13:09:14.562 Warning: componentWillUpdate has been renamed, and is not recommended for use. See https://fb.me/react-unsafe-component-lifecycles for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* Rename componentWillUpdate to UNSAFE_componentWillUpdate to suppress this warning in non-strict mode. In React 17.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: Lottie react-dom.development.js:12357
+13:09:14.671 Feature Policy: Skipping unsupported feature name “payment”. v3:1:43442
+13:09:14.671 Feature Policy: Skipping unsupported feature name “payment”. v3:1:43581
+13:09:14.672 You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS. v3:1:239921
+13:09:14.677 Feature Policy: Skipping unsupported feature name “payment”. v3:1:43442
+13:09:14.677 Feature Policy: Skipping unsupported feature name “payment”. v3:1:43581
+13:09:14.678 Feature Policy: Skipping unsupported feature name “payment”. v3:1:42703
+13:09:14.700
+XHROPTIONShttps://api.chec.io/v1/services/locale//subdivisions
+CORS Preflight Did Not Succeed
+
+13:09:15.094 Feature Policy: Skipping unsupported feature name “payment”. v3:1:42703
+13:09:15.120 Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://api.chec.io/v1/services/locale//subdivisions. (Reason: CORS preflight response did not succeed).
+
+13:09:15.148 Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://api.chec.io/v1/services/locale//subdivisions. (Reason: CORS request did not succeed).
+
+13:09:15.149 TypeError: innerResponse is undefined
+    value index.js:1
+    value index.js:1
+    promise callback*value index.js:1
+    value index.js:1
+    getRegions AddressForm.js:37
+    componentDidMount AddressForm.js:19
+    React 6
+    unstable_runWithPriority scheduler.development.js:697
+    React 10
+    renderReactElement index.tsx:524
+    doRender index.tsx:793
+    _callee2$ index.tsx:425
+    Babel 8
+    render NextJS
+    js next-dev.js:85
+    displayContent fouc.js:14
+    displayContent fouc.js:5
+    js next-dev.js:84
+    promise callback*./node_modules/next/dist/client/next-dev.js next-dev.js:31
+    factory react refresh:8
+    Webpack 5
+AddressForm.js:41:32
+13:09:17.085
+XHRGEThttps://api.chec.io/v1/checkouts/chkt_4oGdB7a4XJ4Vp5/helper/shipping_options?country=
+[HTTP/2 422 Unprocessable Entity 440ms]
+
+13:09:17.530 🚫 Validation/missing fields index.js:1:17355
+13:09:17.530 country: The country field is required. index.js:1:17762
+13:09:17.543 error while fetching list of available shipping options 
+Object { message: "Unsuccessful response (422: Unprocessable Entity) received", statusCode: 422, statusText: "Unprocessable Entity", data: {…}, originalError: Error }
+checkoutActions.js:27:14
+13:09:17.545 error caught in checkout/index.js in generateToken 
+Object { message: "Unsuccessful response (422: Unprocessable Entity) received", statusCode: 422, statusText: "Unprocessable Entity", data: {…}, originalError: Error }
+index.js:214:16
+
+​
+
