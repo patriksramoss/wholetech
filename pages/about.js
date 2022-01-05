@@ -10,9 +10,10 @@ const About = () => (
     </Head>
     <div className="about-container">
 
- 
         
     </div>
+
+
  
   </Root>
 );

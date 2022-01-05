@@ -1,0 +1,12 @@
+HOW TO START ON LOCAL HOST:
+
+yarn dev
+
+HOW TO COMMIT TO REPO:
+
+git add .
+
+git commit -m "updates 001"
+
+git push origin master
+
